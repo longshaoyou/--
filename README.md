@@ -1,7 +1,7 @@
 <div align=center><img src="https://t9.baidu.com/it/u=3434446313,2548240890&fm=85&app=131&size=f242,150&n=0&f=PNG?s=51B4A5778AB55882085C66E403007023&sec=1656349200&t=ac5da2c0626a693576283cbf71bcd0c2" width="125" height="85" /></div>
 <div align=center>这是一个广州南方学院课程信息导出项目</div> 
 <p>项目的技术栈：前端使用vue、后端使用python,并且需要nginx来做反向代理</p>
-<p>使用流程： 输入正确的校园网账号密码 文件就会导出，浏览器会自动下载下来</p>
+<p>使用流程： 下载graduation_credits中的dist文件夹，把文件夹中的文件放到nginx的html中，修改nginx的nginx.conf并运行nginx和index.py输入正确的校园网账号密码 文件就会导出，浏览器会自动下载下来</p>
 <h2>导出的信息</h2>
   <li>excal的xlsx格式</li>
   <li>
